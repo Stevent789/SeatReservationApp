@@ -1,3 +1,5 @@
+$()
+
 var user = {
     name: 'Name',
     seat: 'B2',
