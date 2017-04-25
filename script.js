@@ -1,8 +1,17 @@
-$()
+$(document).ready(function() {
+    
+    var name = $('#firstName' + '#lastName'),
+        email = $('email'),
+        phone = $('#phoneNum'),
+        seat = $('numSeat');
 
-var user = {
-    name: 'Name',
-    seat: 'B2',
-    phone: 5555555555,
-    email: 'email@site.com'
-};
+
+    var userInfo = {
+        name: 'Name',
+        seat: 'B2',
+        phone: 5555555555,
+        email: 'email@site.com'
+    };
+
+
+});
