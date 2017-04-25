@@ -1,0 +1,20 @@
+body {
+    background-image: url("images/theatreimage.jpg");
+    background-size: 100%;
+    /*width: 100%;*/
+    /*height: 100%;*/
+}
+
+.top {
+  color: seagreen;
+}
+
+.front {
+  color:seagreen;
+  border-radius: 20px;
+  background-color: tan;
+  height: 40px;
+  text-align: center;
+  font-size: 22px;
+  border-top: 20px;
+}
