@@ -12,15 +12,30 @@
 
 
 <form>
-    <label>First Name:</label>
-    <input type="text" placeholder="First Name" id="firstName">
-    <label>First Name:</label>
-    <input type="text" placeholder="Last Name" id="lastName">
-    <label>Email</label>
-    <input type="email" placeholder="email@site.com" id="email">
-    <label>Number of Seats</label>
-    <input type="number" placeholder="#" id="numSeat">
-    <input type="submit" placeholder="SUMBIT" id="subButton">
+    <div>
+        <label>First Name:</label>    
+        <input type="text" placeholder="First Name" id="firstName">
+    </div>
+    <div>
+        <label>First Name:</label>
+        <input type="text" placeholder="Last Name" id="lastName">
+    </div>    
+    <div>    
+        <label>Email</label>
+        <input type="email" placeholder="email@site.com" id="email">
+    </div>    
+    <div>    
+        <label>Phone:</label>
+        <input type="text" placeholder="555-555-5555)" id="phoneNumber">
+    </div>    
+    <div>    
+        <label>Number of Seats</label>
+        <input type="number" placeholder="#" id="numSeat">
+    </div>    
+    <div>    
+        <input type="submit" placeholder="SUMBIT" onclick="alert('Your request has been submitted!')" id="subButton">
+        <input type="reset">
+    </div>    
 </form>
 
 <script src="script.js"></script>
