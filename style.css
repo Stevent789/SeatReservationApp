@@ -24,191 +24,22 @@ body {
 
 .front {
   color:rgba(46, 139, 87, 0.85);
-  border-radius: 20px;
   background-color: tan;
   height: 40px;
   text-align: center;
   font-size: 22px;
   border-top: 20px;
+    width: 50%;
 }
 
 .row div {
   border-radius: 10px;
   background-color: green;
   width: 80px;
-  height: 80px;
+  height: 80px;  
   margin: 0.5em;
-    display: inline-block;
+  display: inline-block;
 }
-
-/*
-#A1 {
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-#A2{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#A3{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#A4{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#A5{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#A6{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#B1{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#B2{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#B3{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#B4{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#B5{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#B6{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#C1{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#C2{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#C3{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#C4{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#C5{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#C6{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#D1{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#D2{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#D3{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#D4{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#D5{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-
-#D6{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
-}
-*/
 
 .background-color {
     background-image: url("images/theatreimage.jpg");
@@ -220,10 +51,22 @@ body {
 form {
 /*    display: none;*/
 background-color: #2d801e;
+display: inline-block;
 width: 30%;
-position: fixed;
+position: absolute;
+border-radius: 20px;
+padding: 1em;
+right: 0;
+float: right;
+margin-right: 3em;
+top: 12em;  
 }
 
 form div {
-    padding: 0.3eml
+    padding: 0.3em;
+    text-align: center;
+    
+}
+.container {
+    clear: left;
 }
