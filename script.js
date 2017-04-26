@@ -1,37 +1,26 @@
+alert(userInfo);
+
 $(document).ready(function() {
 
     var name = $('#firstName' + '#lastName'),
         email = $('email'),
         phone = $('#phoneNum'),
-        seat = $('numSeat'),;
+        seat = $('numSeat');
 
 
 
     var userInfo = {
         name: 'Name',
-        seat: 'B2', 'B3',
+        seat: 'B2',
         phone: 5555555555,
         email: 'email@site.com'
-
     };
-
-//------------------------------------------------
     
-    $()
 
+    $('#ready-button').on('click',function() {
 
-//  $("#A1").mouseenter(function() {
-//    $("#A1").css("opacity", "0.25")
-//    $(this).fadeOut(30)
-//  });
-//
-//   $("#A1").mouseout(function() {
-//     $(this).fadeIn(30);
-//     $("#A1").css("opacity", "1.0")
-// });
+    $('form').addClass('w3-animate-top')
+        .css('visibility', 'visible');
+            });
+    
 });
-
-//------------------------------------------------
-
-userInfo.name
-

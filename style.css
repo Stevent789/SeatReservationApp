@@ -34,17 +34,16 @@ color:  rgba(255, 255, 255, 0.42);
 }
 
 form {
-/*    display: none;*/
-background-color: #2d801e;
-display: inline-block;
-width: 30%;
-position: absolute;
-border-radius: 20px;
-padding: 1em 1em 4em;
-right: 15%;
-float: right;
-margin: 0 auto;
-top: 12em;  
+/*    visibility: hidden;*/
+    background-color: #2d801e;
+    width: 30%;
+    position: absolute;
+    border-radius: 20px;
+    padding: 1em 1em 4em;
+    right: 15%;
+    float: right;
+    margin: 0 auto;
+    top: 12em;  
 }
 
 form div {
