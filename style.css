@@ -3,7 +3,10 @@ html {
 }
 
 .top {
-  color: seagreen;
+    color: seagreen;
+    font-size: 5em;
+    text-align: center;
+
 }
 
 .front {
@@ -14,8 +17,8 @@ html {
   font-size: 22px;
   border-top: 20px;
   width: 60%;
-  margin-bottom: 2em;    
-    
+  margin-bottom: 2em;
+
 }
 
 
@@ -23,10 +26,11 @@ html {
   border-radius: 10px;
   background-color: green;
   width: 80px;
-  height: 80px;  
+  height: 80px;
   margin: 0.5em;
   display: inline-block;
   padding: 0.5em;
+color:  rgba(255, 255, 255, 0.42);
 }
 
 form {
@@ -36,16 +40,16 @@ display: inline-block;
 width: 30%;
 position: absolute;
 border-radius: 20px;
-padding: 1em;
-right: 0;
+padding: 1em 1em 4em;
+right: 15%;
 float: right;
-margin-right: 3em;
-top: 12em;  
+margin: 0 auto;
+top: 12em;
 }
 
 form div {
     padding: 0.3em;
-    text-align: center; 
+    text-align: center;
 }
 
 .container {
@@ -65,10 +69,6 @@ form div {
     background-color: black;
 }
 
-form {
- display: none;
-}
-
 #seat-button {
     margin: 0 auto;
     display: flex;
@@ -81,16 +81,41 @@ form {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1em;
-    width: 42em;
+/*    width: 42em;*/
     display: inline-block;
 }
 
-#marquee {
+/*#marquee {
     background-color: antiquewhite;
     position: absolute;
     display: none;
     float: right;
     width: 40%;
     height: 100%;
-    clear: right;
+    clear: right;*/
+}
+
+#left-pane {
+    width: 50%;
+    height: 40em;
+}
+
+#right-pane {
+    width: 30%;
+}
+
+input {
+    width: 70%;
+    height: 3em;
+}
+
+label {
+    font-size: 20pt;
+    font-family: serif;
+    color: #ffffff;
+}
+
+#marquee {
+  color: lightblue;
+   list-style-type: none;
 }
