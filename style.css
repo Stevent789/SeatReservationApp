@@ -11,9 +11,10 @@ div {
 }
 
 body {
-/*    background-image: url("images/theatreimage.jpg");*/
-    background-size: 90%;
+    background-image: url("images/theatreimage.jpg");
+    background-size: 100%;
     background-repeat: no-repeat;
+    background-color: black;
     /*width: 100%;*/
     /*height: 100%;*/
 }
@@ -38,8 +39,13 @@ body {
   width: 80px;
   height: 80px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   margin: 0.5em;    
+=======
+  margin: 0.5em;
+    display: inline-block
+>>>>>>> 25ef384a8887c3315b51323beaf8f9aa8bb1f863
 }
 
 /*
@@ -163,3 +169,60 @@ body {
 >>>>>>> 03071b4b740b4f2f56a8fc2bbd84f66fef12d549
 
 }
+<<<<<<< HEAD
+=======
+
+#D1{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#D2{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#D3{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#D4{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#D5{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#D6{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+*/
+
+.background-color {
+    background-image: url("images/theatreimage.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: black;
+}
+
+form {
+    display: none;
+}
+>>>>>>> 25ef384a8887c3315b51323beaf8f9aa8bb1f863
