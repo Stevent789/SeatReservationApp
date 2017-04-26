@@ -2,37 +2,23 @@ html {
     background-color: black;
 }
 
-/*
-div {
-    height: 100%;
-    width: 100%;
-    background-color: black;
-*/
-}
-
-/*body {
-    background-image: url("images/theatreimage.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: black;
-    width: 100%;
-    height: 100%;*/
-}
-
 .top {
-  color: seagreen;
+    color: seagreen;
+    font-size: 5em;
+    text-align: center;
+
 }
 
 .front {
-  color:seagreen;
-  border-radius: 20px;
+  color:rgba(46, 139, 87, 0.85);
   background-color: tan;
   height: 40px;
   text-align: center;
   font-size: 22px;
   border-top: 20px;
   width: 60%;
-  margin-bottom: 2em;
+  margin-bottom: 2em;    
+    
 }
 
 
@@ -40,11 +26,11 @@ div {
   border-radius: 10px;
   background-color: green;
   width: 80px;
-  height: 80px;
+  height: 80px;  
   margin: 0.5em;
   display: inline-block;
-  text-align: center;
   padding: 0.5em;
+color:  rgba(255, 255, 255, 0.42);    
 }
 
 form {
@@ -54,21 +40,16 @@ display: inline-block;
 width: 30%;
 position: absolute;
 border-radius: 20px;
-padding: 1em;
+padding: 1em 1em 4em;
 right: 15%;
 float: right;
-<<<<<<< HEAD
-margin-right: 3em;
-top: 12em;
-=======
 margin: 0 auto;
-top: 12em;
->>>>>>> edfb649a8b9ce2af45021b28cb8927dd8557f1c3
+top: 12em;  
 }
 
 form div {
     padding: 0.3em;
-    text-align: center;
+    text-align: center; 
 }
 
 .container {
@@ -125,9 +106,11 @@ form div {
 
 input {
     width: 70%;
+    height: 3em;
 }
 
-.showing {
-  color: lightblue;
- list-style-type: none;
+label {
+    font-size: 20pt;
+    font-family: serif;
+    color: #ffffff;
 }
