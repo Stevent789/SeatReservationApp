@@ -17,8 +17,8 @@ html {
   font-size: 22px;
   border-top: 20px;
   width: 60%;
-  margin-bottom: 2em;    
-    
+  margin-bottom: 2em;
+
 }
 
 
@@ -26,11 +26,11 @@ html {
   border-radius: 10px;
   background-color: green;
   width: 80px;
-  height: 80px;  
+  height: 80px;
   margin: 0.5em;
   display: inline-block;
   padding: 0.5em;
-color:  rgba(255, 255, 255, 0.42);    
+color:  rgba(255, 255, 255, 0.42);
 }
 
 form {
@@ -44,12 +44,12 @@ padding: 1em 1em 4em;
 right: 15%;
 float: right;
 margin: 0 auto;
-top: 12em;  
+top: 12em;
 }
 
 form div {
     padding: 0.3em;
-    text-align: center; 
+    text-align: center;
 }
 
 .container {
@@ -85,14 +85,14 @@ form div {
     display: inline-block;
 }
 
-#marquee {
+/*#marquee {
     background-color: antiquewhite;
     position: absolute;
     display: none;
     float: right;
     width: 40%;
     height: 100%;
-    clear: right;
+    clear: right;*/
 }
 
 #left-pane {
@@ -113,4 +113,9 @@ label {
     font-size: 20pt;
     font-family: serif;
     color: #ffffff;
+}
+
+#marquee {
+  color: lightblue;
+   list-style-type: none;
 }
