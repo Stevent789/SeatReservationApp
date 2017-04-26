@@ -13,7 +13,9 @@ html {
   text-align: center;
   font-size: 22px;
   border-top: 20px;
-    width: 50%;
+  width: 60%;
+  margin-bottom: 2em;    
+    
 }
 
 
@@ -24,13 +26,7 @@ html {
   height: 80px;  
   margin: 0.5em;
   display: inline-block;
-}
-
-.background-color {
-    background-image: url("images/theatreimage.jpg");
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-color: black;
+  padding: 0.5em;
 }
 
 form {
@@ -70,6 +66,31 @@ form div {
 }
 
 form {
-
+ display: none;
 }
 
+#seat-button {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+
+#seatSelection {
+    background-image: url("images/theatreimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    width: 42em;
+    display: inline-block;
+}
+
+#marquee {
+    background-color: antiquewhite;
+    position: absolute;
+    display: none;
+    float: right;
+    width: 40%;
+    height: 100%;
+    clear: right;
+}
