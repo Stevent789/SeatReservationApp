@@ -3,21 +3,24 @@ $(document).ready(function() {
     var name = $('#firstName' + '#lastName'),
         email = $('email'),
         phone = $('#phoneNum'),
-        seat = $('numSeat'),;
+        seat = $('numSeat');
 
 
 
     var userInfo = {
         name: 'Name',
-        seat: 'B2', 'B3',
+        seat: 'B2', 
         phone: 5555555555,
         email: 'email@site.com'
 
     };
 
 //------------------------------------------------
-    
-    $()
+
+    $('.row div').on("click", function(){
+      $(this).css('background-color', 'red');
+
+    })
 
 
 //  $("#A1").mouseenter(function() {
@@ -32,6 +35,3 @@ $(document).ready(function() {
 });
 
 //------------------------------------------------
-
-userInfo.name
-
