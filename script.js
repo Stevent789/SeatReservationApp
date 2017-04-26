@@ -1,3 +1,5 @@
+alert(userInfo);
+
 $(document).ready(function() {
 
     var name = $('#firstName' + '#lastName'),
@@ -9,12 +11,16 @@ $(document).ready(function() {
 
     var userInfo = {
         name: 'Name',
+<<<<<<< HEAD
         seat: [],
+=======
+        seat: 'B2',
+>>>>>>> 4e5a0ec60f940503be15ea5a5634eda734e5a910
         phone: 5555555555,
         email: 'email@site.com'
-
     };
 
+<<<<<<< HEAD
 
 
 //------------------------------------------------
@@ -51,3 +57,13 @@ $('.row div').on('click', function(){
 });
 
 //------------------------------------------------
+=======
+
+    $('#ready-button').on('click',function() {
+
+
+    $('form').addClass('w3-animate-top')
+        .css('visibility', 'visible');
+            });
+    
+>>>>>>> 4e5a0ec60f940503be15ea5a5634eda734e5a910
