@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     var userInfo = {
         name: 'Name',
-        seat: 'B2', 
+        seat: 'B2',
         phone: 5555555555,
         email: 'email@site.com'
 
@@ -19,6 +19,7 @@ $(document).ready(function() {
 
     $('.row div').on("click", function(){
       $(this).css('background-color', 'red');
+      userInfo.seat = 
 
     })
 
