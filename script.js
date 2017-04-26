@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    
+
     var name = $('#firstName' + '#lastName'),
         email = $('email'),
         phone = $('#phoneNum'),
@@ -13,5 +13,13 @@ $(document).ready(function() {
         email: 'email@site.com'
     };
 
-
+//  $("#A1").mouseenter(function() {
+//    $("#A1").css("opacity", "0.25")
+//    $(this).fadeOut(30)
+//  });
+//
+//   $("#A1").mouseout(function() {
+//     $(this).fadeIn(30);
+//     $("#A1").css("opacity", "1.0")
+// });
 });
