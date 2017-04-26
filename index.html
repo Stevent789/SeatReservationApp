@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="style.css">
     <title>Midterm Project</title>
 <body>
-<div class="background-color">
 <h1 class="top">Grand Circus Seat Reservation</h1>
 <div class="front">
   <p>Stage</p>
@@ -49,14 +48,15 @@
         <div class="col-sm-1" id="D5">D5</div>
         <div class="col-sm-1" id="D6">D6</div>
       </div>
-    <input type="submit" placeholder="READY" id="ready">
+    <button id='seat-button'>Ready</button>
   </div>
-</div>
 </div>
 <!-- //end of container for seats -->
 
 <!-- //Coming Soon -->
-<div></div>    
+<div id="marquee">
+    <h2>Coming Soon</h2>
+</div>    
 <!-- //Reservation Form -->
 <form>
     <div>
@@ -80,7 +80,8 @@
         <input type="text" placeholder="555-555-5555" id="phoneNum">
     </div>
     <div>
-        <input type="submit" placeholder="SUMBIT" onclick="alert('Your request has been submitted!')" id="subButton">
+<!--        <input type="submit" placeholder="SUMBIT" onclick="alert('Your request has been submitted!')" id="subButton">-->
+        <button id="form-submit">Submit</button>
         <input type="reset">
     </div>    
 </form>
