@@ -32,6 +32,7 @@ body {
     width: 50%;
 }
 
+
 .row div {
   border-radius: 10px;
   background-color: green;
@@ -64,9 +65,26 @@ top: 12em;
 
 form div {
     padding: 0.3em;
-    text-align: center;
-    
+    text-align: center; 
 }
+
 .container {
     clear: left;
+}
+
+  height: 80px;
+  margin: 0.5em;
+  display: inline-block;
+  text-align: center;
+}
+
+.background-color {
+    background-image: url("images/theatreimage.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: black;
+}
+
+form {
+    display: none;
 }
