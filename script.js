@@ -15,12 +15,12 @@ $(document).ready(function() {
         phone: 5555555555,
         email: 'email@site.com'
     };
-    
+
 
     $('#ready-button').on('click',function() {
+
 
     $('form').addClass('w3-animate-top')
         .css('visibility', 'visible');
             });
     
-});
