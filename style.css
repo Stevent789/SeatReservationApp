@@ -2,22 +2,6 @@ html {
     background-color: black;
 }
 
-/*
-div {
-    height: 100%;
-    width: 100%;
-    background-color: black;
-*/
-}
-
-body {
-    background-image: url("images/theatreimage.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    /*width: 100%;*/
-    /*height: 100%;*/
-}
-
 .top {
   color: seagreen;
 }
@@ -72,11 +56,11 @@ form div {
     clear: left;
 }
 
-  height: 80px;
-  margin: 0.5em;
-  display: inline-block;
-  text-align: center;
+.col-sm-1:hover {
+  opacity: 0.50;
+  background-color: gray;
 }
+
 
 .background-color {
     background-image: url("images/theatreimage.jpg");
@@ -86,5 +70,6 @@ form div {
 }
 
 form {
-    display: none;
+
 }
+
