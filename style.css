@@ -31,7 +31,9 @@ body {
   text-align: center;
   font-size: 22px;
   border-top: 20px;
+  width: 50%;
 }
+
 
 .row div {
   border-radius: 10px;
@@ -40,9 +42,19 @@ body {
   height: 80px;
   margin: 0.5em;
   display: inline-block;
-  text-align: center; 
+  text-align: center;
 }
 
+.background-color {
+    background-image: url("images/theatreimage.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: black;
+}
+
+form {
+    display: none;
+}
 /*
 #A1 {
   border-radius: 10px;
@@ -161,13 +173,11 @@ body {
   width: 80px;
   height: 80px;
 }
+>>>>>>> 03071b4b740b4f2f56a8fc2bbd84f66fef12d549
 
-#C6{
-  border-radius: 10px;
-  background-color: green;
-  width: 80px;
-  height: 80px;
 }
+<<<<<<< HEAD
+=======
 
 #D1{
   border-radius: 10px;
@@ -211,14 +221,3 @@ body {
   height: 80px;
 }
 */
-
-.background-color {
-    background-image: url("images/theatreimage.jpg");
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-color: black;
-}
-
-form {
-    display: none;
-}
