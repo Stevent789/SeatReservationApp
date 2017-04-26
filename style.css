@@ -31,7 +31,9 @@ div {
   text-align: center;
   font-size: 22px;
   border-top: 20px;
+  width: 50%;
 }
+
 
 .row div {
   border-radius: 10px;
@@ -39,12 +41,11 @@ div {
   width: 80px;
   height: 80px;
   margin: 0.5em;
+<<<<<<< HEAD
     display: inline-block;
-}
-
-.col-sm-1:hover {
-  opacity: 0.50;
-  background-color: gray;
+=======
+  display: inline-block;
+  text-align: center;
 }
 
 .background-color {
@@ -57,3 +58,172 @@ div {
 form {
     display: none;
 }
+/*
+#A1 {
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+#A2{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#A3{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#A4{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#A5{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#A6{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#B1{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#B2{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#B3{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#B4{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#B5{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#B6{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#C1{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#C2{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#C3{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#C4{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#C5{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+>>>>>>> 03071b4b740b4f2f56a8fc2bbd84f66fef12d549
+
+>>>>>>> 35e35c7ca9d602cde55eae6a9c8a627d1f66d619
+}
+
+.col-sm-1:hover {
+  opacity: 0.50;
+  background-color: gray;
+}
+
+<<<<<<< HEAD
+.background-color {
+    background-image: url("images/theatreimage.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: black;
+}
+
+form {
+    display: none;
+}
+=======
+#D3{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#D4{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#D5{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+
+#D6{
+  border-radius: 10px;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+*/
+>>>>>>> 35e35c7ca9d602cde55eae6a9c8a627d1f66d619
