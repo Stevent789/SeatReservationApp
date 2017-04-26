@@ -62,11 +62,11 @@ form div {
 }
 
 
-.background-color {
-    background-image: url("images/theatreimage.jpg");
+.backimg {
+    background-image: url("images/theatre.jpg");
     background-repeat: no-repeat;
-    background-size: 50%;
-    background-color: black;
+    background-size: 100%;
+    /*background-color: black;*/
 }
 
 #seat-button {
@@ -76,13 +76,13 @@ form div {
 }
 
 
-#seatSelection {
+/*#seatSelection {
     background-image: url("images/theatreimage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1em;
 /*    width: 42em;*/
-    display: inline-block;
+    /*display: inline-block;*/*/
 }
 
 /*#marquee {
