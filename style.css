@@ -55,10 +55,15 @@ width: 30%;
 position: absolute;
 border-radius: 20px;
 padding: 1em;
-right: 0;
+right: 15%;
 float: right;
+<<<<<<< HEAD
 margin-right: 3em;
 top: 12em;
+=======
+margin: 0 auto;
+top: 12em;
+>>>>>>> edfb649a8b9ce2af45021b28cb8927dd8557f1c3
 }
 
 form div {
@@ -83,10 +88,6 @@ form div {
     background-color: black;
 }
 
-form {
- display: none;
-}
-
 #seat-button {
     margin: 0 auto;
     display: flex;
@@ -99,7 +100,7 @@ form {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1em;
-    width: 42em;
+/*    width: 42em;*/
     display: inline-block;
 }
 
@@ -112,4 +113,21 @@ form {
     height: 100%;
     clear: right;
 }
->>>>>>> 9ea540705b1b3da003019836725cfc5cfe1ac2a7
+
+#left-pane {
+    width: 50%;
+    height: 40em;
+}
+
+#right-pane {
+    width: 30%;
+}
+
+input {
+    width: 70%;
+}
+
+.showing {
+  color: lightblue;
+ list-style-type: none;
+}
