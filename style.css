@@ -31,7 +31,8 @@ div {
   text-align: center;
   font-size: 22px;
   border-top: 20px;
-  width: 50%;
+  width: 60%;
+  margin-bottom: 2em;
 }
 
 
@@ -43,8 +44,36 @@ div {
   margin: 0.5em;
   display: inline-block;
   text-align: center;
+  padding: 0.5em;
 }
 
+form {
+/*    display: none;*/
+background-color: #2d801e;
+display: inline-block;
+width: 30%;
+position: absolute;
+border-radius: 20px;
+padding: 1em;
+right: 0;
+float: right;
+margin-right: 3em;
+top: 12em;
+}
+
+form div {
+    padding: 0.3em;
+    text-align: center;
+}
+
+.container {
+    clear: left;
+}
+
+.col-sm-1:hover {
+  opacity: 0.50;
+  background-color: gray;
+}
 
 
 .background-color {
@@ -55,5 +84,32 @@ div {
 }
 
 form {
-    display: none;
+ display: none;
 }
+
+#seat-button {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+
+#seatSelection {
+    background-image: url("images/theatreimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    width: 42em;
+    display: inline-block;
+}
+
+#marquee {
+    background-color: antiquewhite;
+    position: absolute;
+    display: none;
+    float: right;
+    width: 40%;
+    height: 100%;
+    clear: right;
+}
+>>>>>>> 9ea540705b1b3da003019836725cfc5cfe1ac2a7
