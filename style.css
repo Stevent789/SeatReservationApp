@@ -18,7 +18,7 @@ html {
   text-align: center;
   font-size: 22px;
   border-top: 20px;
-  width: 60%;
+  width: 50%;
   margin-bottom: 2em;
 }
 
@@ -38,6 +38,7 @@ html {
     display: inline-block;
     clear: left;
     width: 100%;
+    margin-left: 1em;
 }
 
 .row div {
@@ -96,13 +97,13 @@ form {
     visibility: hidden;
     display: inline-block;
     background-color: #2d801e;
-    width: 80%;
+    width: 30%;
     position: absolute;
     border-radius: 20px;
     padding: 1em 1em 4em;
     right: 15%;
     float: right;
-    margin: 0 auto;
+/*    margin: 0 auto;*/
     top: 12em;  
 }
 

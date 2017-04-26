@@ -10,17 +10,13 @@ $(document).ready(function() {
 
 
     var userInfo = {
-        name: 'Name',
-<<<<<<< HEAD
+        name: '',
         seat: [],
-=======
-        seat: 'B2',
->>>>>>> 4e5a0ec60f940503be15ea5a5634eda734e5a910
         phone: 5555555555,
-        email: 'email@site.com'
+        email: ''
     };
 
-<<<<<<< HEAD
+
 
 
 //------------------------------------------------
@@ -45,25 +41,12 @@ $('.row div').on('click', function(){
 });
 
 
-//  $("#A1").mouseenter(function() {
-//    $("#A1").css("opacity", "0.25")
-//    $(this).fadeOut(30)
-//  });
-//
-//   $("#A1").mouseout(function() {
-//     $(this).fadeIn(30);
-//     $("#A1").css("opacity", "1.0")
-// });
-});
-
 //------------------------------------------------
-=======
+
 
     $('#ready-button').on('click',function() {
 
-
-    $('form').addClass('w3-animate-top')
-        .css('visibility', 'visible');
+        alert("Woo!");
+//    $('form').addClass('w3-animate-top')
+//        .css('visibility', 'visible');
             });
-    
->>>>>>> 4e5a0ec60f940503be15ea5a5634eda734e5a910
