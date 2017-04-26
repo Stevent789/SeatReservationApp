@@ -38,7 +38,8 @@ body {
   background-color: green;
   width: 80px;
   height: 80px;
-  margin: 0.5em;    
+  margin: 0.5em;
+    display: inline-block
 }
 
 /*
@@ -215,4 +216,8 @@ body {
     background-repeat: no-repeat;
     background-size: 50%;
     background-color: black;
+}
+
+form {
+    display: none;
 }
