@@ -40,13 +40,13 @@ function showDivs(n) {
 //------when a seat is clicked the backgrround color changes to red and the
 //id of the seat gets added to an array of seatsSelected. if the seat is clicked again
 //the color will change back to green and the id of that seat number will be removed from that
-var seatsSelected = [];
-
+var A1, A2, A3, A4, A5, A6, B1, B2, B3, B4, B5, B6, C1, C2, C3, C4, C5, C6, D1, D2, D3, D4, D5, D6;
+var seatNumber
 $('.row div').on('click', function(){
     $(this).toggleClass('red');
     if( $(this).hasClass('red')){
       $(this).css('background-color', 'red');
-      var seatNumber = $(this).html();
+      seatNumber = $(this).html();
       userInfo.seat.push(seatNumber);
       console.log(userInfo.seat);
     }else{
@@ -56,6 +56,7 @@ $('.row div').on('click', function(){
       userInfo.seat.splice(ind, 1);
       console.log(userInfo.seat);
     }
+  });
 
     //    this makes the form appear when the sready button is clicked
     $('#ready-button').on('click', function(){
@@ -76,10 +77,9 @@ $('.row div').on('click', function(){
         userInfo.phone.push(phoneNum);
         userInfo.email.push(mail);
         console.log(userInfo.name);
+        $('form').css('visibility', 'hidden');
 
-        // var seatpush = $(this).attr('id');
-        // seatpush.push(name, email, phoneNum, userInfo.seat);
-        // console.log(seatPush);
+
     });
 
     // $('.row div').mouseenter(function() {
@@ -90,9 +90,6 @@ $('.row div').on('click', function(){
     //      $( this ).text( $(this).attr('id') );
     //    });
 
-
-
-});
 
 
 });
