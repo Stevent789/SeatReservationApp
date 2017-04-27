@@ -60,6 +60,14 @@ color:  rgba(255, 255, 255, 0.42);
   background-color: gray;
 }
 
+/*
+@media (max-width: 800px) {
+        .row div {
+        width: 5em;
+        height: 5em;    
+            }
+*/
+
 
 #ready-button {
     margin: 0 auto;
