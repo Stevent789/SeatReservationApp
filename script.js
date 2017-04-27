@@ -63,6 +63,12 @@ $('.row div').on('click', function(){
 
 
 
+        alert("Test!");
+//    $('form').addClass('w3-animate-top')
+//        .css('visibility', 'visible');
+            });
+
+
 //-----------this toggles in the form----- the toggle shrinks the form :(
 
 $('#ready-button').on('click', function(){
