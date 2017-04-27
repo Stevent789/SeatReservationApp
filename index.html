@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+=======
+    <link rel="stylesheet" href="w3.css">
+>>>>>>> e9889c5990cfa71869ff58e16e967aca0073a17d
     <link rel="stylesheet" href="style.css">
     <title>Midterm Project</title>
-<body class="backimg">
-<h1 class="top">Grand Circus Seat Reservation</h1>
+<body>
+<h1 class="top">Grand Circus Theater</h1>
 <div class="front">
-  <p>Stage</p>
+  <p class="w3-animate-left">Reserve your seats now!</p>
 </div>
-<div id="left-pane">
+<div class="w3-animate-opacity" id="left-pane">
     <!-- // Seat Section -->
     <!-- //Row A -->
     <div class ="container">
@@ -50,19 +54,18 @@
             <div class="col-sm-1" id="D5">D5</div>
             <div class="col-sm-1" id="D6">D6</div>
           </div>
-        <button id='seat-button'>Ready</button>
+        <button class="w3-btn w3-khaki w3-round-large" id='ready-button'>Ready</button>
       </div>
     </div>
     <!-- //end of container for seats -->
 </div>
-
 <div id="right-pane">
-    <!-- //Coming Soon -->
+<!-- //Coming Soon -->
     <div id="marquee">
         <ul>Now Playing
           <li>Delilah in Distress</li>
           <li>The Mystery of the Bottomless Coffee</li>
-          <li>Grant Chirpus & Lady Witherell: A Love Story</li>
+          <li>Grant Chirpus &amp; Lady Witherell: A Love Story</li>
           <li>Attack of the Window Cleaner</li>
           <li>JavaScript vs. jQuery: The Untold Story</li>
       </ul>
@@ -72,30 +75,30 @@
         <div>
             <label>First Name:</label>
             <br>
-            <input type="text" placeholder="First Name" id="firstName">
+            <input class="w3-input" type="text" placeholder="First Name" id="firstName">
         </div>
         <div>
             <label>Last Name:</label>
             <br>
-            <input type="text" placeholder="Last Name" id="lastName">
+            <input class="w3-input" type="text" placeholder="Last Name" id="lastName">
         </div>
         <div>
             <label>Email</label>
             <br>
-            <input type="email" placeholder="email@site.com" id="email">
+            <input class="w3-input" type="email" placeholder="email@site.com" id="email">
         </div>
         <div>
             <label>Phone:</label>
             <br>
-            <input type="text" placeholder="555-555-5555" id="phoneNum">
+            <input class="w3-input" type="text" placeholder="555-555-5555" id="phoneNum">
         </div>
         <div>
-    <!--        <input type="submit" placeholder="SUMBIT" onclick="alert('Your request has been submitted!')" id="subButton">-->
-            <button id="form-submit">Submit</button>
-            <button id="reset">Reset</button>
+            <button class="w3-btn w3-khaki w3-round-large" id="form-submit">Submit</button>
+            <button class="w3-btn w3-khaki w3-round-large" id="reset">Reset</button>
         </div>
     </form>
 </div>
+<<<<<<< HEAD
 
     <!-- <div class="showing">
       <ul>Now Showing</ul>
@@ -121,5 +124,9 @@
 
 
 <!-- <script src="script.js"></script> -->
+=======
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>  
+<script src="script.js"></script>
+>>>>>>> e9889c5990cfa71869ff58e16e967aca0073a17d
 </body>
 </html>

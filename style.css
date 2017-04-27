@@ -1,12 +1,14 @@
 html {
     background-color: black;
+    background-image: url("images/theatre.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .top {
     color: seagreen;
     font-size: 5em;
     text-align: center;
-
 }
 
 .front {
@@ -16,11 +18,29 @@ html {
   text-align: center;
   font-size: 22px;
   border-top: 20px;
-  width: 60%;
+  width: 50%;
   margin-bottom: 2em;
-
 }
 
+.front, #marquee {
+    box-shadow: -1em 1em 2em #070707;
+    z-index: 2;
+}
+
+/*---------left side--------*/
+#left-pane {
+    width: 50%;
+    height: 40em;
+    display: inline-block;
+}
+
+/*---------seats--------*/
+.container {
+    display: inline-block;
+    clear: left;
+    width: 100%;
+    margin-left: 1em;
+}
 
 .row div {
   border-radius: 10px;
@@ -33,75 +53,65 @@ html {
 color:  rgba(255, 255, 255, 0.42);
 }
 
-form {
-/*    display: none;*/
-background-color: #2d801e;
-display: inline-block;
-width: 30%;
-position: absolute;
-border-radius: 20px;
-padding: 1em 1em 4em;
-right: 15%;
-float: right;
-margin: 0 auto;
-top: 12em;
-}
-
-form div {
-    padding: 0.3em;
-    text-align: center;
-}
-
-.container {
-    clear: left;
-}
-
 .col-sm-1:hover {
   opacity: 0.50;
   background-color: gray;
 }
 
 
-.backimg {
-    background-image: url("images/theatre.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    /*background-color: black;*/
-}
-
-#seat-button {
+#ready-button {
     margin: 0 auto;
     display: flex;
     text-align: center;
 }
 
 
-/*#seatSelection {
-    background-image: url("images/theatreimage.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 1em;
-/*    width: 42em;*/
-    /*display: inline-block;*/*/
-}
-
-/*#marquee {
-    background-color: antiquewhite;
-    position: absolute;
-    display: none;
-    float: right;
-    width: 40%;
-    height: 100%;
-    clear: right;*/
-}
-
-#left-pane {
-    width: 50%;
-    height: 40em;
-}
-
+/*---------right side--------*/
 #right-pane {
+    display: inline-block;
     width: 30%;
+    height: 40em;
+    float: right;
+    top: 0;
+    text-align: center;
+}
+
+#right-pane #marquee {
+    color: lightblue;
+    list-style-type: none;
+    background-color: antiquewhite;
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    border-radius: 20px;
+    padding: 1em 1em 4em;
+    right: 15%;
+    float: right;
+    margin: 0 auto;
+    height: 30em;
+    clear: left;
+    overflow: scroll;
+}
+
+/*---------form--------*/
+form {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #2d801e;
+    width: 30%;
+    position: absolute;
+    border-radius: 20px;
+    padding: 1em 1em 4em;
+    right: 15%;
+    float: right;
+/*    margin: 0 auto;*/
+    top: 12em;
+    z-index: 3;
+}
+
+form div {
+    padding: 0.3em;
+    text-align: center;
 }
 
 input {
@@ -113,9 +123,4 @@ label {
     font-size: 20pt;
     font-family: serif;
     color: #ffffff;
-}
-
-#marquee {
-  color: lightblue;
-   list-style-type: none;
 }
