@@ -46,7 +46,7 @@ $('.row div').on('click', function(){
 
     $('#ready-button').on('click',function() {
 
-        alert("Woo!");
+        alert("Test!");
 //    $('form').addClass('w3-animate-top')
 //        .css('visibility', 'visible');
             });
