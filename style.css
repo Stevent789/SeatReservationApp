@@ -26,6 +26,7 @@ html {
 
 .front, #marquee {
     box-shadow: -1em 1em 2em #070707;
+    z-index: 2;
 }
 
 /*---------left side--------*/
@@ -106,7 +107,8 @@ form {
     right: 15%;
     float: right;
 /*    margin: 0 auto;*/
-    top: 12em;  
+    top: 12em;
+    z-index: 3;
 }
 
 form div {
@@ -124,4 +126,3 @@ label {
     font-family: serif;
     color: #ffffff;
 }
-
