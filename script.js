@@ -124,3 +124,4 @@ $('#ready-button').on('click', function(){
     //  $('form').addClass('w3-animate-right');
 
 });
+});
