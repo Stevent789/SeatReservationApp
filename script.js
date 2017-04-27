@@ -59,20 +59,10 @@ $('.row div').on('click', function(){
 });
 
 
-
-
-
-
-        alert("Test!");
-//    $('form').addClass('w3-animate-top')
-//        .css('visibility', 'visible');
-            });
-
-
 //-----------this toggles in the form----- the toggle shrinks the form :(
 
 $('#ready-button').on('click', function(){
-      $('form').css('visibility', 'visible');
+      $('form').css('visibility', 'visible')
       //$('#marquee').css('visibility', 'hidden');
     //  $('form').addClass('w3-animate-right');
 });
@@ -114,17 +104,9 @@ $('#ready-button').on('click', function(){
 //
 // var D1 = [], D2 = [], D3 = [], D4 = [], D5 = [], D6 = [];
 
-// });
+});
 
-//  $("#A1").mouseenter(function() {
-//    $("#A1").css("opacity", "0.25")
-//    $(this).fadeOut(30)
-//  });
-//
-//   $("#A1").mouseout(function() {
-//     $(this).fadeIn(30);
-//     $("#A1").css("opacity", "1.0")
-// });
+
 
 
 //------------------------------------------------
