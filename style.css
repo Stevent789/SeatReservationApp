@@ -70,6 +70,28 @@ color:  rgba(255, 255, 255, 0.42);
     text-align: center;
 }
 
+ul {
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul h3 {
+    margin-left: -0.8em;
+    margin-bottom: 1em;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: rgba(222, 6, 6, 0.62);
+    color: aliceblue;
+}
+
+ul li {
+    margin-left: -3em;
+    font-family: 'Eagle Lake', cursive;
+    list-style: none;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
 #right-pane #marquee {
     color: #155e76;
     list-style-type: none;
@@ -210,3 +232,6 @@ label {
     text-align: center;
 }
 */
+#carousel {
+    margin-bottom: 5em;
+}
