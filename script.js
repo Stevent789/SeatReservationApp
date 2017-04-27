@@ -114,7 +114,7 @@ $('#ready-button').on('click', function(){
 //
 // var D1 = [], D2 = [], D3 = [], D4 = [], D5 = [], D6 = [];
 
-});
+// });
 
 //  $("#A1").mouseenter(function() {
 //    $("#A1").css("opacity", "0.25")
