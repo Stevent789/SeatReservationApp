@@ -15,7 +15,12 @@ $(document).ready(function() {
 
     };
 
-    var slideIndex = 1;
+// FUNCTION FOR CAROUSEL
+$("#left").on("click", function() {
+  plusDivs(-1);
+});
+
+var slideIndex = 1;
 showDivs(slideIndex);
 
 var plusDivs = function(n) {
@@ -33,7 +38,27 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
 }
 
+$("#right").on("click", function(){
+  plusDivs(1);
+});
 
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
 
 //-------FUNCTION FOR ADDING SEAT NUMBERS TO ARRAY OF SEATS--------------
 
@@ -91,5 +116,11 @@ $('.row div').on('click', function(){
     //    });
 
 
+
+
+$('#ready-button').on('click', function(){
+      $('form').css('visibility', 'visible')
+      //$('#marquee').css('visibility', 'hidden');
+    //  $('form').addClass('w3-animate-right');
 
 });
