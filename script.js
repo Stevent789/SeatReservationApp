@@ -5,15 +5,10 @@ $(document).ready(function() {
         phone = $('#phoneNum'),
         seat = $('numSeat');
 
+seatInfo = [];
 
 
-    var userInfo = {
-        name: [],
-        seat: [],
-        phone: [],
-        email: []
 
-    };
 
 // FUNCTION FOR CAROUSEL
 $("#left").on("click", function() {
@@ -66,20 +61,21 @@ function showDivs(n) {
 //id of the seat gets added to an array of seatsSelected. if the seat is clicked again
 //the color will change back to green and the id of that seat number will be removed from that
 var A1, A2, A3, A4, A5, A6, B1, B2, B3, B4, B5, B6, C1, C2, C3, C4, C5, C6, D1, D2, D3, D4, D5, D6;
-var seatNumber
+var seatNumber;
+var seatsTotal = [];
 $('.row div').on('click', function(){
     $(this).toggleClass('red');
     if( $(this).hasClass('red')){
       $(this).css('background-color', 'red');
       seatNumber = $(this).html();
-      userInfo.seat.push(seatNumber);
-      console.log(userInfo.seat);
+      seatsTotal.push(seatNumber);
+      console.log(seatsTotal);
     }else{
       $(this).css('background-color', 'green');
       var seatNumber = $(this).html();
-      var ind = userInfo.seat.indexOf(seatNumber);
-      userInfo.seat.splice(ind, 1);
-      console.log(userInfo.seat);
+      var ind = seatsTotal.indexOf(seatNumber);
+      seatsTotal.splice(ind, 1);
+      console.log(seatsTotal);
     }
   });
 
@@ -98,11 +94,18 @@ $('.row div').on('click', function(){
         var mail = $('#email').val();
         var phoneNum = $('#phoneNum').val();
         var names = firstName + ' ' + lastName;
-        userInfo.name.push(names);
-        userInfo.phone.push(phoneNum);
-        userInfo.email.push(mail);
-        console.log(userInfo.name);
+        var userInfo = {
+            name: names,
+            seat: seatsTotal,
+            phone: phoneNum,
+            email: mail
+          };
+        console.log(userInfo.seat);
+        seatInfo.push(userInfo);
         $('form').css('visibility', 'hidden');
+        seatsTotal = [];
+        seatNumber = '';
+        console.log(userInfo.name)
 
 
     });
@@ -118,9 +121,11 @@ $('.row div').on('click', function(){
 
 
 
+
 $('#ready-button').on('click', function(){
       $('form').css('visibility', 'visible')
       //$('#marquee').css('visibility', 'hidden');
     //  $('form').addClass('w3-animate-right');
+});
 });
 });
