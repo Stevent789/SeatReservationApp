@@ -122,5 +122,5 @@ $('#ready-button').on('click', function(){
       $('form').css('visibility', 'visible')
       //$('#marquee').css('visibility', 'hidden');
     //  $('form').addClass('w3-animate-right');
-
+});
 });
