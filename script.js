@@ -40,6 +40,11 @@ $('.row div').on('click', function(){
     }
 });
 
+
+
+
+
+
 //-----------this toggles in the form----- the toggle shrinks the form :(
 
 $('#ready-button').on('click', function(){
