@@ -121,7 +121,7 @@ $('.row div').on('click', function(){
 
 
 
-
+//this changes the visibility of the form when it is submitted
 $('#ready-button').on('click', function(){
       $('form').css('visibility', 'visible')
       //$('#marquee').css('visibility', 'hidden');
