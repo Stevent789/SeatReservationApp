@@ -60,7 +60,7 @@ function showDivs(n) {
 //------when a seat is clicked the backgrround color changes to red and the
 //id of the seat gets added to an array of seatsSelected. if the seat is clicked again
 //the color will change back to green and the id of that seat number will be removed from that
-var A1, A2, A3, A4, A5, A6, B1, B2, B3, B4, B5, B6, C1, C2, C3, C4, C5, C6, D1, D2, D3, D4, D5, D6;
+
 var seatNumber;
 var seatsTotal = [];
 $('.row div').on('click', function(){
